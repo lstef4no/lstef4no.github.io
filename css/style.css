@@ -45,6 +45,13 @@ body {
   text-decoration: underline;
 }
 
+/* Icon styling */
+.icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
 /* === Sidebar navigation === */
 .sidebar nav {
   display: flex;
@@ -64,6 +71,7 @@ body {
 .sidebar nav a.active {
   background-color: #f3e9f9; /* soft purple tint */
   color: #8e44ad;
+  filter: invert(22%) sepia(54%) saturate(2373%) hue-rotate(264deg) brightness(91%) contrast(90%);
 }
 
 /* === Main content === */
