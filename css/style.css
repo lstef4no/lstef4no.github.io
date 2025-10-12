@@ -75,7 +75,13 @@ body {
   background-color: #ffffff;
 }
 
-.content h1,
+.content h1 {
+  color: #111;
+  border-bottom: 2px solid #000000; /* black underline accent */
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
 .content h2 {
   color: #111;
   border-bottom: 2px solid #8e44ad; /* purple underline accent */
