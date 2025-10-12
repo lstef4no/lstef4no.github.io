@@ -7,42 +7,59 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Projects</h1>
-  </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <div class="container">
 
-  <section>
-    <div class="project">
-      <h3>🛩 UAV Trajectory Planning with NMPC</h3>
-      <p>Implemented nonlinear MPC for a fixed-wing aircraft using CasADi and acados.</p>
-      <a href="https://github.com/yourusername/nmpc-uav" target="_blank">View on GitHub →</a>
-    </div>
+    <!-- Sidebar navigation -->
+    <aside class="sidebar">
+      <h2 class="logo">
+        <a href="index.html">Stefano<br>Lacovara</a>
+      </h2>
+      <nav>
+        <a href="index.html" class="active">🏠 Home</a>
+        <a href="about.html">👤 About</a>
+        <a href="projects.html">🧠 Projects</a>
+        <a href="contact.html">✉️ Contact</a>
+      </nav>
+      <footer class="sidebar-footer">
+        <p>© 2025<br>Stefano Lacovara</p>
+      </footer>
+    </aside>
 
-    <div class="project">
-      <h3>🤖 Multi-Drone ROS2 Communication</h3>
-      <p>Decentralized drone control architecture using ROS2 and PX4.</p>
-      <a href="https://github.com/yourusername/ros2-drone-network" target="_blank">View on GitHub →</a>
-    </div>
+    <!-- Main page content -->
+    <main class="content">
+      <section>
+        <h1>Projects</h1>
+      </section>
 
-    <div class="project">
-        <h3>📘 Master’s Thesis</h3>
-        <p>
-            <strong>Title:</strong> Nonlinear Model Predictive Control for Fixed-Wing UAVs under Wind Disturbances.<br>
-            <strong>Abstract:</strong> Developed a real-time NMPC controller using CasADi and acados for UAV trajectory optimization and disturbance rejection.
-        </p>
-        <p>
-            <a href="assets/thesis/thesis.pdf" target="_blank">📄 Download Thesis (PDF)</a> |
-        </p>
-    </div>
+      <section>
+        <div class="project">
+        <h3>🛩 UAV Trajectory Planning with NMPC</h3>
+        <p>Implemented nonlinear MPC for a fixed-wing aircraft using CasADi and acados.</p>
+        <a href="https://github.com/yourusername/nmpc-uav" target="_blank">View on GitHub →</a>
+        </div>
 
-  </section>
+        <div class="project">
+        <h3>🤖 Multi-Drone ROS2 Communication</h3>
+        <p>Decentralized drone control architecture using ROS2 and PX4.</p>
+        <a href="https://github.com/yourusername/ros2-drone-network" target="_blank">View on GitHub →</a>
+        </div>
+
+        <div class="project">
+            <h3>📘 Master’s Thesis</h3>
+            <p>
+                <strong>Title:</strong> Nonlinear Model Predictive Control for Fixed-Wing UAVs under Wind Disturbances.<br>
+                <strong>Abstract:</strong> Developed a real-time NMPC controller using CasADi and acados for UAV trajectory optimization and disturbance rejection.
+            </p>
+            <p>
+                <a href="assets/thesis/thesis.pdf" target="_blank">📄 Download Thesis (PDF)</a> |
+            </p>
+        </div>
+    </section>
+    </main>
+
+  </div>
+
 
   <footer>
     <p>© 2025 Stefano Lacovara</p>

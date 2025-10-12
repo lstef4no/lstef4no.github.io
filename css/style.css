@@ -38,7 +38,7 @@ body {
   margin-bottom: 2rem;
   text-align: center;
   line-height: 1.3;
-  color: #8e44ad; /* purple accent for name */
+  color: #000000; /* black accent for name */
 }
 
 /* === Sidebar navigation === */
