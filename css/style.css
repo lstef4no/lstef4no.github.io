@@ -92,8 +92,8 @@ body {
   text-decoration: underline;
 }
 
-/* === Project cards === */
-.project {
+/* === cards === */
+.cards {
   background: #fff;
   border: 1px solid #eee;
   border-radius: 8px;
@@ -103,7 +103,7 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project:hover {
+.cards:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
