@@ -11,7 +11,7 @@ body {
 /* === Layout container === */
 .container {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 /* === Sidebar === */
@@ -29,7 +29,7 @@ body {
   bottom: 0;
   padding: 1.5rem 1rem;
   box-sizing: border-box;
-  border-right: 1px solid #8e44ad; /* purple vertical dividing line */
+  border-right: 2px solid #8e44ad; /* purple vertical dividing line */
 }
 
 .logo {
@@ -39,6 +39,10 @@ body {
   text-align: center;
   line-height: 1.3;
   color: #000000; /* black accent for name */
+  text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: underline;
 }
 
 /* === Sidebar navigation === */
@@ -47,7 +51,6 @@ body {
   flex-direction: column;
   gap: 0.8rem;
 }
-
 .sidebar nav a {
   color: #555;
   text-decoration: none;
@@ -61,13 +64,6 @@ body {
 .sidebar nav a.active {
   background-color: #f3e9f9; /* soft purple tint */
   color: #8e44ad;
-}
-
-/* === Sidebar footer === */
-.sidebar-footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #777;
 }
 
 /* === Main content === */
@@ -92,7 +88,6 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-
 .content a:hover {
   text-decoration: underline;
 }
