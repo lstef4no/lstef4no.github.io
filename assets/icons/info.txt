@@ -1,0 +1,4 @@
+https://lucide.dev
+Color: #222
+Stroke width: 1.75px
+Size: 24px
