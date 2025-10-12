@@ -12,65 +12,84 @@
     
     <!-- Sidebar navigation -->
     <aside class="sidebar">
-      <h1 class="logo">
+      <a href="index.html">
+        <img src="assets/images/profile.jpeg" alt="Profile picture" class="profile-photo">
+      </a>
+      <div class="profile-name">
         <a href="index.html">Stefano<br>Lacovara</a>
-      </h1>
+      </div>
       <nav>
         <a href="projects.html">
-          <img src="assets/icons/folder.svg" alt="Folder icon" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75" 
+            stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>
+          </svg>
           Projects
         </a>
         <a href="mailto:stefano.lacovara@gmail.com">
-          <img src="assets/icons/mail.svg" alt="Mail icon" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75"
+            stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+          </svg>
           Email
         </a>
         <a href="https://www.linkedin.com/in/stefano-lacovara-67935329a/" target="_blank">
-          <img src="assets/icons/linkedin.svg" alt="LinkedIn icon" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75" 
+            stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
+          </svg>
           LinkedIn
         </a>
       </nav>
-      <footer class="sidebar-footer">
-        <p>© 2025<br>Stefano Lacovara</p>
-      </footer>
     </aside>
     
     <!-- Main page content -->
     <main class="content">
       <section>
-        <h2>Welcome</h2>
+        <h1>Projects</h1>
       </section>
       
       <section>
         <div class="cards">
-          <h3>🛩 UAV Trajectory Planning with NMPC</h3>
-          <p>Implemented nonlinear MPC for a fixed-wing aircraft using CasADi and acados.</p>
-          <a href="https://github.com/yourusername/nmpc-uav" target="_blank">View on GitHub →</a>
-        </div>
-        
-        <div class="cards">
-          <h3>🤖 Multi-Drone ROS2 Communication</h3>
-          <p>Decentralized drone control architecture using ROS2 and PX4.</p>
-          <a href="https://github.com/yourusername/ros2-drone-network" target="_blank">View on GitHub →</a>
-        </div>
-        
-        <div class="cards">
-          <h3>📘 Master’s Thesis</h3>
+          <h2>
+            Nonlinear Model Predictive Control (NMPC) for high-performance virtual car drivers
+          </h2>
           <p>
-            <strong>Title:</strong> Nonlinear Model Predictive Control for Fixed-Wing UAVs under Wind Disturbances.<br>
-            <strong>Abstract:</strong> Developed a real-time NMPC controller using CasADi and acados for UAV trajectory optimization and disturbance rejection.
+            The project develops a Nonlinear Model Predictive Control for high-performance virtual car drivers, addressing complex vehicle dynamics at the limits of stability. The controller leverages a full nonlinear vehicle model with tire dynamics and lateral-longitudinal coupling, solved through real-time optimization under actuator and safety constraints, achieving near-optimal racing trajectories and robust stability.
+          </p>
+        </div>
+        
+        <div class="cards">
+          <h2>Bosch Future Mobility Challenge</h2>
+          <p>
+            Participated in an international student competition on autonomous driving and connectivity for 1/10 scale vehicles. Designed algorithms for autonomous navigation in smart cities, obstacle avoidance, and V2X communication, and collaborated in a multidisciplinary team to integrate perception, planning, and control modules.
+          </p>
+        </div>
+        
+        <div class="cards">
+          <h2>Master’s Thesis Internship</h2>
+          <p>
+            Developed an enhanced Kinodynamic RRT algorithm for online path planning of small fixed-wing UAVs in obstacle-rich environments. The approach incorporated both kinematic and dynamic constraints, producing collision-free and dynamically feasible trajectories. Validated the method with real-world UAV flight tests, demonstrating robustness and applicability to surveillance, monitoring, and disaster response.
           </p>
           <p>
-            <a href="assets/thesis/thesis.pdf" target="_blank">📄 Download Thesis (PDF)</a> |
+            <a href="assets/pdf/thesis.pdf" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="1.75" 
+               stroke-linecap="round" stroke-linejoin="round" class="icon">
+               <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/>
+               <path d="M14 2v4a2 2 0 0 0 2 2h4"/>
+              </svg>
+              View/Download Thesis (PDF)</a>
           </p>
         </div>
       </section>
     </main>
     
   </div>
-  
-  
-  <footer>
-    <p>© 2025 Stefano Lacovara</p>
-  </footer>
 </body>
 </html>

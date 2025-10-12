@@ -12,49 +12,75 @@
     
     <!-- Sidebar navigation -->
     <aside class="sidebar">
-      <h1 class="logo">
+      <a href="index.html">
+        <img src="assets/images/profile.jpeg" alt="Profile picture" class="profile-photo">
+      </a>
+      <div class="profile-name">
         <a href="index.html">Stefano<br>Lacovara</a>
-      </h1>
-      
-      <nav>
-        <a href="projects.html">🧠 Projects</a>
-        <a href="contact.html">✉️ Contact</a>
-      </nav>
-      
-      <!-- Contact links (new section) -->
-      <div class="contact-links">
-        <a href="mailto:stefano.lacovara@gmail.com">📧 Email</a>
-        <a href="https://www.linkedin.com/in/stefano-lacovara-67935329a/" target="_blank">💼 LinkedIn</a>
       </div>
-      
-      <footer class="sidebar-footer">
-        <p>© 2025<br>Stefano Lacovara</p>
-      </footer>
+      <nav>
+        <a href="projects.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75" 
+            stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>
+          </svg>
+          Projects
+        </a>
+        <a href="mailto:stefano.lacovara@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75"
+            stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+          </svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/stefano-lacovara-67935329a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+            fill="none" stroke="currentColor" stroke-width="1.75" 
+            stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+      </nav>
     </aside>
     
     
     <!-- Main page content -->
     <main class="content">
-      <section>
-        <h2>Welcome</h2>
-      </section>
       
       <section>
         <div class="cards">
+          <h1>Welcome!</h1>
           <p>
             I am a driven and curious individual with a strong passion for robotics, control systems, and embedded technologies. Throughout my academic and professional path, I have made deliberate choices to deepen my understanding of how theoretical principles can be applied to real-world engineering challenges — from working with embedded platforms and ROS environments to studying advanced control techniques and dynamic system modeling. Over time, I have also developed a strong interest in autonomous and multi-agent systems, exploring how cooperation, coordination, and decision-making can emerge among multiple intelligent agents operating in complex environments. In my work, I value a modular and systematic approach to implementation, often leveraging CI/CD practices to ensure scalability, maintainability, and reliability in complex software and hardware systems. My ambition is to apply control theory to interesting and challenging topics — including autonomous and distributed systems — using it as a framework to understand, design, and optimize the behavior of dynamic systems across diverse domains.
+          </p>
+          <p>
+            <a href="assets/pdf/CurriculumVitae.pdf" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.75"
+                stroke-linecap="round" stroke-linejoin="round" class="icon">
+                <path d="M14 2v4a2 2 0 0 0 2 2h4"/>
+                <path d="M15 18a3 3 0 1 0-6 0"/>
+                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/>
+                <circle cx="12" cy="13" r="2"/>
+              </svg>
+              View/Download Curriculum Vitae (PDF)</a>
           </p>
         </div>
         
         <div class="cards">
-          <h3>Master's Degree in Control Systems Engineering</h3>
+          <h2>Master's Degree in Control Systems Engineering</h2>
           <p>
             The Master’s Degree in Control Systems Engineering provides a solid theoretical foundation in modern control theory and dynamical systems, complemented by applications in robotics and intelligent systems. The program covers advanced topics such as nonlinear control, convex optimization, estimation and filtering, and model predictive control. It also explores data-driven methods through courses like machine learning and learning dynamical systems, bridging classical control with modern statistical approaches. Additional subjects such as network dynamical systems, adaptive control, and mathematical physics reinforce analytical rigor and systems-level thinking, while laboratory and robotics courses provide practical experience in implementing and validating control strategies on real-world platforms.
           </p>
         </div>
         
         <div class="cards">
-          <h3>📘 Bachelor's Degree in Electronic and Computer Engineering</h3>
+          <h2>📘 Bachelor's Degree in Electronic and Computer Engineering</h2>
           <p>
             The Bachelor’s Degree in Electronic and Computer Engineering provides a broad foundation in the principles of electronics, computer science, and automation. The program covers core subjects such as mathematics, physics, circuit theory, signal processing, control systems, and computer programming, along with digital systems design. It also includes fundamental knowledge of telecommunications and mechanics, giving a comprehensive understanding of interconnected engineering domains. The program combines theoretical study with practical laboratory experience, preparing students to analyze, design, and implement electronic and information systems.
           </p>
