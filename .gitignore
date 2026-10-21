@@ -1,2 +1,3 @@
 # Ignore macOS Finder metadata everywhere
 **/.DS_Store
+node_modules/
